@@ -1,0 +1,7 @@
+# Example scanner configuration.
+# The current CLI accepts the same values as command-line arguments.
+
+root = "F:\\España Outdoor Maps"
+catalog = "data/catalog.sqlite"
+hash_mode = "auto"
+progress_every = 100
