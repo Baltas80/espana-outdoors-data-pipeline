@@ -1,0 +1,102 @@
+# España Outdoor Data Pipeline
+
+# Data sets and generated data
+/data/
+/datasets/
+/raw/
+/original/
+/processed/
+/export/
+/output/
+/reports/
+/catalogs/
+/indexes/
+/manifests/
+
+# Geo data - never commit source/processed corpora
+*.gpx
+*.kml
+*.kmz
+*.geojson
+*.geojsonl
+*.osm
+*.osm.pbf
+*.pbf
+*.pmtiles
+*.mbtiles
+
+# Generated databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Generated tabular/analysis data
+*.csv
+*.csv.gz
+*.tsv
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.jsonl
+*.ndjson
+
+# Logs and reports
+/logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.pyre/
+.pytype/
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Temporary/download files
+tmp/
+temp/
+.cache/
+.local/
+.local-data/
+*.tmp
+*.temp
+*.bak
+*.part
+*.download
+*.crdownload
